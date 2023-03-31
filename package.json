@@ -1,0 +1,24 @@
+{
+  "name": "yami",
+  "version": "1.0.0",
+  "description": "YAMI is a Utility which allows to show what Music you're playing in nearly real-time using the VRChat OSC protocol.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "prettify": "prettier --write .",
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Lupiax",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-osc": "^8.0.11",
+    "ws": "^8.13.0"
+  }
+}
