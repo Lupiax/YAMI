@@ -1,6 +1,6 @@
 # YAMI
 
-> YAMI (short for **Y**et **A**nother **M**usic **I**ntegration) is a Utility which allows to show what Music you're playing in _nearly_ real-time using the VRChat OSC protocol.
+> YAMI (short for **Y**et **A**nother **M**usic **I**ntegration) is a Utility which allows to show what Music you're playing in real-time using the VRChat OSC protocol.
 
 # Abstract
 
@@ -8,17 +8,21 @@ YAMI is an utility which allows you to listen to your Music and let other player
 
 # Usage
 
-Make sure you have latest nodeJS (18.15.0) installed from https://nodejs.org/en/download and make sure to install Tampermonkey from https://www.tampermonkey.net/, now that's out of the way let's get into the actual installation process.
+To begin, ensure that you have the latest version of **nodeJS (18.15.0)** installed from the official [Node.js website](https://nodejs.org/en/download). Additionally, make sure to install **Tampermonkey** from their official [website](https://www.tampermonkey.net/).
 
-First download this repository either by cloning it or downloading the zip through Github, if you downloaded the .zip extract it as well.
+Once you have installed these prerequisites, follow these steps:
 
-Next we will install all the required depedencies by running `npm install` in the root directory of the project.
+1. Download this repository by either cloning it or downloading the ZIP file from GitHub. If you downloaded the ZIP file, be sure to extract its contents.
 
-Now you can run `npm run start` and the project should start.
+2. Install all the required dependencies by running the command `npm install` in the root directory of the project.
 
-Now that we have it running we will go to our web browser and create a new tampermonkey script through it's addon and we paste the contents of `website/script.js` there.
+3. Start the project by running the command `npm run start`.
 
-Now you can go to Youtube Music and start playing any Music and it should show on your chatbox inside VRChat if you have OSC enabled.
+4. Once the project is running, open your web browser and create a new Tampermonkey script using its addon. Copy and paste the contents of `website/script.js` into the script.
+
+5. Finally, go to Youtube Music and start playing any song. If you have OSC enabled, the song information should appear in your chatbox inside VRChat.
+
+By following these steps, you should now have successfully installed the software.
 
 # License
 
